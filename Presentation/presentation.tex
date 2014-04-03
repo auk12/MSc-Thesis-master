@@ -32,7 +32,7 @@
 \begin{beamercolorbox}[wd=\paperwidth,ht=2.5ex,dp=1.125ex,%
 	 leftskip=.3cm,rightskip=.3cm plus1fil]{footlinecolor}%
         \usebeamerfont{section in head/foot}%
-	\color{gray} \insertshortauthor\hfill\insertpagenumber{} of \insertpresentationendpage{}
+	\color{gray} \insertshortauthor\hfill\insertframenumber{} of \inserttotalframenumber{}
 
     \end{beamercolorbox}
 
@@ -43,7 +43,7 @@
 \usefonttheme{serif} % default family is serif
 \usepackage{fontspec}
 \defaultfontfeatures{Numbers=OldStyle}
-\setmainfont{Minion Pro}
+\setmainfont{Contra}
 
 
 \setbeamerfont{title like}{shape=\scshape}
@@ -128,11 +128,14 @@ Most maternal deaths are avoidable.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Methods}
 \subsection{Setting}
-\begin{frame}
-\begin{figure}
-\centerline{\includegraphics[scale=0.45]{health-system}}l
-\end{figure}
+
+\begin{frame}{Kenyan Health System}
+\centerline{\includegraphics<1>[scale=0.45]{community}
+\includegraphics<2>[scale=0.45]{clinic}
+\includegraphics<3>[scale=0.45]{county}
+\includegraphics<4>[scale=0.45]{health-system}}
 \end{frame}
+
 
 \begin{frame}{Research Site}
 Specifics about Sinoko clinic, Ndivisi, Bungoma County
@@ -140,7 +143,9 @@ Specifics about Sinoko clinic, Ndivisi, Bungoma County
 
 \subsection{Human-Centered Design}
 \begin{frame}{Human-Centered Design}
-Explanation of the HCD framework.
+\begin{figure}
+\centerline{\includegraphics[scale=0.35]<1>{HCD}}
+\end{figure}
 \end{frame}
 
 \begin{frame}{Hear Phase}

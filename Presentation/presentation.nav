@@ -15,36 +15,36 @@
 \headcommand {\beamer@sectionpages {3}{7}}
 \headcommand {\beamer@subsectionpages {3}{7}}
 \headcommand {\beamer@subsectionentry {0}{2}{1}{8}{Setting}}\headcommand {\beamer@subsectionpages {8}{7}}
-\headcommand {\slideentry {2}{1}{1}{8/8}{Setting}{0}}
-\headcommand {\beamer@framepages {8}{8}}
-\headcommand {\slideentry {2}{1}{2}{9/9}{Setting}{0}}
-\headcommand {\beamer@framepages {9}{9}}
-\headcommand {\beamer@subsectionentry {0}{2}{2}{10}{Human-Centered Design}}\headcommand {\beamer@subsectionpages {8}{9}}
-\headcommand {\slideentry {2}{2}{1}{10/10}{Human-Centered Design}{0}}
-\headcommand {\beamer@framepages {10}{10}}
-\headcommand {\slideentry {2}{2}{2}{11/11}{Human-Centered Design}{0}}
-\headcommand {\beamer@framepages {11}{11}}
-\headcommand {\slideentry {2}{2}{3}{12/12}{Human-Centered Design}{0}}
+\headcommand {\slideentry {2}{1}{1}{8/11}{Setting}{0}}
+\headcommand {\beamer@framepages {8}{11}}
+\headcommand {\slideentry {2}{1}{2}{12/12}{Setting}{0}}
 \headcommand {\beamer@framepages {12}{12}}
-\headcommand {\slideentry {2}{2}{4}{13/13}{Human-Centered Design}{0}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{13}{Human-Centered Design}}\headcommand {\beamer@subsectionpages {8}{12}}
+\headcommand {\slideentry {2}{2}{1}{13/13}{Human-Centered Design}{0}}
 \headcommand {\beamer@framepages {13}{13}}
-\headcommand {\sectionentry {3}{Results}{14}{Results}{0}}
-\headcommand {\beamer@sectionpages {8}{13}}
-\headcommand {\beamer@subsectionpages {10}{13}}
-\headcommand {\beamer@subsectionentry {0}{3}{1}{14}{Qualitative Results}}\headcommand {\beamer@subsectionpages {14}{13}}
-\headcommand {\slideentry {3}{1}{1}{14/14}{Qualitative Results}{0}}
+\headcommand {\slideentry {2}{2}{2}{14/14}{Human-Centered Design}{0}}
 \headcommand {\beamer@framepages {14}{14}}
-\headcommand {\beamer@subsectionentry {0}{3}{2}{15}{Quantitative Results}}\headcommand {\beamer@subsectionpages {14}{14}}
-\headcommand {\slideentry {3}{2}{1}{15/15}{Quantitative Results}{0}}
+\headcommand {\slideentry {2}{2}{3}{15/15}{Human-Centered Design}{0}}
 \headcommand {\beamer@framepages {15}{15}}
-\headcommand {\sectionentry {4}{Discussion}{16}{Discussion}{0}}
-\headcommand {\beamer@sectionpages {14}{15}}
-\headcommand {\beamer@subsectionpages {15}{15}}
-\headcommand {\beamer@subsectionentry {0}{4}{1}{16}{Frame 1}}\headcommand {\beamer@subsectionpages {16}{15}}
-\headcommand {\slideentry {4}{1}{1}{16/16}{Frame 1}{0}}
+\headcommand {\slideentry {2}{2}{4}{16/16}{Human-Centered Design}{0}}
 \headcommand {\beamer@framepages {16}{16}}
-\headcommand {\beamer@partpages {1}{16}}
-\headcommand {\beamer@subsectionpages {16}{16}}
-\headcommand {\beamer@sectionpages {16}{16}}
-\headcommand {\beamer@documentpages {16}}
+\headcommand {\sectionentry {3}{Results}{17}{Results}{0}}
+\headcommand {\beamer@sectionpages {8}{16}}
+\headcommand {\beamer@subsectionpages {13}{16}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{17}{Qualitative Results}}\headcommand {\beamer@subsectionpages {17}{16}}
+\headcommand {\slideentry {3}{1}{1}{17/17}{Qualitative Results}{0}}
+\headcommand {\beamer@framepages {17}{17}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{18}{Quantitative Results}}\headcommand {\beamer@subsectionpages {17}{17}}
+\headcommand {\slideentry {3}{2}{1}{18/18}{Quantitative Results}{0}}
+\headcommand {\beamer@framepages {18}{18}}
+\headcommand {\sectionentry {4}{Discussion}{19}{Discussion}{0}}
+\headcommand {\beamer@sectionpages {17}{18}}
+\headcommand {\beamer@subsectionpages {18}{18}}
+\headcommand {\beamer@subsectionentry {0}{4}{1}{19}{Frame 1}}\headcommand {\beamer@subsectionpages {19}{18}}
+\headcommand {\slideentry {4}{1}{1}{19/19}{Frame 1}{0}}
+\headcommand {\beamer@framepages {19}{19}}
+\headcommand {\beamer@partpages {1}{19}}
+\headcommand {\beamer@subsectionpages {19}{19}}
+\headcommand {\beamer@sectionpages {19}{19}}
+\headcommand {\beamer@documentpages {19}}
 \headcommand {\def \inserttotalframenumber {13}}

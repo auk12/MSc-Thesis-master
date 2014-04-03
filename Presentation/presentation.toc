@@ -3,9 +3,9 @@
 \beamer@subsectionintoc {1}{1}{Maternal Mortality}{3}{0}{1}
 \beamer@sectionintoc {2}{Methods}{8}{0}{2}
 \beamer@subsectionintoc {2}{1}{Setting}{8}{0}{2}
-\beamer@subsectionintoc {2}{2}{Human-Centered Design}{10}{0}{2}
-\beamer@sectionintoc {3}{Results}{14}{0}{3}
-\beamer@subsectionintoc {3}{1}{Qualitative Results}{14}{0}{3}
-\beamer@subsectionintoc {3}{2}{Quantitative Results}{15}{0}{3}
-\beamer@sectionintoc {4}{Discussion}{16}{0}{4}
-\beamer@subsectionintoc {4}{1}{Frame 1}{16}{0}{4}
+\beamer@subsectionintoc {2}{2}{Human-Centered Design}{13}{0}{2}
+\beamer@sectionintoc {3}{Results}{17}{0}{3}
+\beamer@subsectionintoc {3}{1}{Qualitative Results}{17}{0}{3}
+\beamer@subsectionintoc {3}{2}{Quantitative Results}{18}{0}{3}
+\beamer@sectionintoc {4}{Discussion}{19}{0}{4}
+\beamer@subsectionintoc {4}{1}{Frame 1}{19}{0}{4}
