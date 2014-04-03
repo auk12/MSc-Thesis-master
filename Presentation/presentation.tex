@@ -55,7 +55,7 @@
 
 \setbeamercolor*{footlinecolor}{fg=black,bg=black!10}
 \setbeamercolor*{normal text}{fg=black,bg=white} 
-\setbeamercolor*{alerted text}{fg=Firebrick1} 
+\setbeamercolor*{alerted text}{fg=Firebrick3} 
 \setbeamercolor*{example text}{fg=DarkOliveGreen1} 
 \setbeamercolor*{structure}{fg=black} 
 \setbeamercolor*{palette tertiary}{fg=black,bg=black!10} 
@@ -80,7 +80,7 @@
 	Amogh Karnik\\
 	{\it M.Sc. Candidate}\\
 }
-\institute[DGHI]{Duke Global Health Institute}
+\institute[DGHI]{\includegraphics[scale=0.15]{dghi}}
 \date{\today}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -99,28 +99,76 @@
 \section{Introduction}
 \subsection{Maternal Mortality}
 
-\begin{frame}
+\begin{frame}{What we know...}
 
-\begin{alertblock}{Every day, 800 women die of pregnancy-related complications around the world.}
-
-\end{alertblock}
-\pause
-\begin{alertblock}{The most common causes of maternal death are hemorrhage and infection.}
-\end{alertblock}
-\pause
-\begin{alertblock}{Most of these deaths take place during or within the first few days after childbirth.}
-\end{alertblock}
-\pause
-\begin{alertblock}{In Sub-Saharan Africa, 1 of 16 women will die of pregnancy-related complications.}
-\end{alertblock}
+\begin{block}{
+Reducing maternal mortality is a major global health priority. }
+%Every day, 800 women die of pregnancy-related complications around the world.
+\end{block}
+\begin{block}{
+Most maternal deaths take place during a specific time period.}
+%Most of these deaths take place during or within the first few days after childbirth.
+\end{block}
+\begin{block}{
+The burden of maternal mortality is greatest in poor and remote areas.}
+%Compared to women worldwide, 1 of 16 women in sub-Saharan Africa will die of pregnancy-related complications.
+\end{block}
 \end{frame}
 
 
-\begin{frame}
-\begin{center}
-Most maternal deaths are avoidable.
-\end{center}
+\begin{frame}{What we know...}
+
+\uncover<1->{\begin{block}{Most maternal deaths are avoidable.}
+%Skilled practices can prevent at least 80% of maternal deaths and 67% of all newborn deaths. 
+\end{block}}
+
+\uncover<2->{\begin{alertblock}{Three delay model for maternal mortality:}
+\begin{enumerate}
+\item<3->{Seeking care}
+\item<4->{Accessing care}
+\item<5->{Receiving care}
+\end{enumerate}
+
+\end{alertblock}}
+
+%Explain three delays. These delays make safe maternal and child health practices very difficult to deliver. 
 \end{frame}
+
+\subsection{mHealth}
+\begin{frame}[t]{Mobile Phones and mHealth}
+\begin{columns}[T]
+\column{2in}
+\begin{itemize}
+	\item<1->{m-Pesa:}
+		\begin{itemize}
+		\item<1->{Mobile banking for everyone}
+		\end{itemize}
+	\item<2->{Magpi, OpenDataKit, Formhub:}
+		\begin{itemize}
+		\item<2->{Mobile data collection at the point of care}
+		\end{itemize}
+\end{itemize}
+\column{2in}
+\begin{itemize}
+	\item<3->{Text message interventions}
+		\begin{itemize}
+		\item<3->{Patient education, health promotion}
+		\item<3->{Provider training}
+		\end{itemize}
+	\item<4->{Interactive voice response (IVR)}
+		\begin{itemize}
+		\item<4->{Patient education}
+		\item<4->{Emergency response}
+		\end{itemize}
+\end{itemize}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Baby Monitor}
+
+\end{frame}
+
+
 
 
 
@@ -128,49 +176,94 @@ Most maternal deaths are avoidable.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Methods}
 \subsection{Setting}
-
 \begin{frame}{Kenyan Health System}
-\centerline{\includegraphics<1>[scale=0.45]{community}
-\includegraphics<2>[scale=0.45]{clinic}
-\includegraphics<3>[scale=0.45]{county}
-\includegraphics<4>[scale=0.45]{health-system}}
+\only<1>{ }
+\centerline{\includegraphics<2>[scale=0.42]{community}
+\includegraphics<3>[scale=0.42]{clinic}
+\includegraphics<4>[scale=0.42]{county}
+\includegraphics<5>[scale=0.42]{health-system}}
 \end{frame}
-
 
 \begin{frame}{Research Site}
-Specifics about Sinoko clinic, Ndivisi, Bungoma County
+\begin{columns}[c]
+\column{2in}
+\includegraphics[width=2in]<1->{map}
+\column{2in}
+\begin{itemize}
+	\item<2->{Two community units}
+	\item<2->{Population: 10,744}
+	\item<3->{Clinic equipped for deliveries}
+	\item<4->{55 CHVs}
+		\begin{itemize}
+		\item<5->{195 individuals}
+		\item<5->{36 households}
+		\end{itemize}
+	\end{itemize}
+
+\end{columns}
 \end{frame}
+
 
 \subsection{Human-Centered Design}
 \begin{frame}{Human-Centered Design}
+\only<1>{
 \begin{figure}
 \centerline{\includegraphics[scale=0.35]<1>{HCD}}
-\end{figure}
+\end{figure}}
 \end{frame}
 
-\begin{frame}{Hear Phase}
-This is the hear phase.
+\begin{frame}[t]{Hear Phase}
+\begin{block}{\textcolor{DodgerBlue4}{Objective: to understand the users, their responsibilities, needs, and environment.}}
+\uncover<2->{How does the current system of community-based maternal and child health care work?
+\begin{itemize}
+\item{CHV focus group discussion}
+\item{CHV shadow days}
+\item{Clinic nurse focus group discussion}
+\end{itemize}}
+\end{block}
 \end{frame}
 
-\begin{frame}{Create Phase}
-This is the create phase.
+\begin{frame}[t]{Create Phase}
+\begin{block}{\textcolor{DodgerBlue4}{Objective: to develop a design solution based on what we've ''heard''.}}
+\uncover<2->{How can voice and text interfaces be integrated to address the users' stated needs and specifications?
+\begin{itemize}
+\item{Verboice}
+\item{VoIP, Asterisk, telecommunications company}
+\item{SMS gateway provider}
+\item{Analysis engine in R}
+\item{CHV mock testing}
+\end{itemize}}
+\end{block}
 \end{frame}
 
 \begin{frame}{Deliver Phase}
-This is the deliver phase.
+\begin{block}{\textcolor{DodgerBlue4}{Objective: to implement and evaluate the design solution.}}
+\uncover<2->{How well did the design solution address the users' stated needs and specifications?
+\begin{itemize}
+\item{Usage: call data from July 2013 - March 2014}
+\item{Usability: evaluation survey administered through an automated Verboice call}
+\begin{itemize}
+\item{Perceived ease of use}
+\item{Perceived usefulness}
+\item{User control}
+\item{Quality of work life}
+\end{itemize}
+\end{itemize}}
+\end{block}
 \end{frame}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Results}
-\subsection{Qualitative Results}
+\subsection{System Design}
 \begin{frame}{Create Phase}
 These are the results of the create phase.
 \end{frame}
 
-\subsection{Quantitative Results}
+\subsection{Usage and Usability}
 \begin{frame}{Deliver Phase}
+
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
