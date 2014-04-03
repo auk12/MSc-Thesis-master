@@ -1,0 +1,18 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: manuscript.aux
+A level-1 auxiliary file: ./Abstract/abstract.aux
+A level-1 auxiliary file: ./Abbreviations/listofabbr.aux
+A level-1 auxiliary file: ./Chapter1/chapter-one.aux
+A level-1 auxiliary file: ./Chapter2/academic-manuscript.aux
+A level-1 auxiliary file: ./Chapter3/chapter-three.aux
+A level-1 auxiliary file: ./Appendix1/map.aux
+A level-1 auxiliary file: ./Appendix1/chv-report-2013.aux
+A level-1 auxiliary file: ./Appendix1/call-flows.aux
+A level-1 auxiliary file: ./Appendix1/usability.aux
+The style file: ./Bibliography/apalike.bst
+Database file #1: ./Bibliography/BabyMonitor.bib
+I was expecting a `,' or a `}'---line 490 of file ./Bibliography/BabyMonitor.bib
+ :   
+ :   @MISC{MOTECH2011,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+(There was 1 error message)
