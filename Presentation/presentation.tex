@@ -165,10 +165,13 @@ The burden of maternal mortality is greatest in poor and remote areas.}
 \end{frame}
 
 \begin{frame}{Baby Monitor}
-
+\begin{itemize}
+\item{Targets pregnant women directly with IVR}
+\item{Women answer screening questions by pressing numbers on their keypads}
+\item{Pilot study in Nairobi showed that screenings were reliable compared to in-person assessments with nurses}
+\item{Second study conducted in parallel to this project: assess reliability and validity in a rural, remote population}
+\end{itemize}
 \end{frame}
-
-
 
 
 
@@ -177,29 +180,27 @@ The burden of maternal mortality is greatest in poor and remote areas.}
 \section{Methods}
 \subsection{Setting}
 \begin{frame}{Kenyan Health System}
-\only<1>{ }
-\centerline{\includegraphics<2>[scale=0.42]{community}
-\includegraphics<3>[scale=0.42]{clinic}
-\includegraphics<4>[scale=0.42]{county}
-\includegraphics<5>[scale=0.42]{health-system}}
+\centerline{\includegraphics<1>[scale=0.42]{community}
+\includegraphics<2>[scale=0.42]{clinic}
+\includegraphics<3>[scale=0.42]{county}
+\includegraphics<4>[scale=0.42]{health-system}}
 \end{frame}
 
 \begin{frame}{Research Site}
 \begin{columns}[c]
-\column{2in}
-\includegraphics[width=2in]<1->{map}
-\column{2in}
-\begin{itemize}
-	\item<2->{Two community units}
-	\item<2->{Population: 10,744}
-	\item<3->{Clinic equipped for deliveries}
-	\item<4->{55 CHVs}
-		\begin{itemize}
-		\item<5->{195 individuals}
-		\item<5->{36 households}
-		\end{itemize}
+	\column{2in}
+	\includegraphics[width=2in]<1->{map}
+	\column{2in}
+	\begin{itemize}
+			\item<2->{Two community units}
+			\item<2->{Population: 10,744}
+			\item<3->{Clinic equipped for deliveries}
+			\item<4->{55 CHVs}
+				\begin{itemize}
+					\item<4->{195 individuals}
+					\item<4->{36 households}
+				\end{itemize}
 	\end{itemize}
-
 \end{columns}
 \end{frame}
 
@@ -236,18 +237,12 @@ The burden of maternal mortality is greatest in poor and remote areas.}
 \end{block}
 \end{frame}
 
-\begin{frame}{Deliver Phase}
+\begin{frame}[t]{Deliver Phase}
 \begin{block}{\textcolor{DodgerBlue4}{Objective: to implement and evaluate the design solution.}}
 \uncover<2->{How well did the design solution address the users' stated needs and specifications?
 \begin{itemize}
 \item{Usage: call data from July 2013 - March 2014}
 \item{Usability: evaluation survey administered through an automated Verboice call}
-\begin{itemize}
-\item{Perceived ease of use}
-\item{Perceived usefulness}
-\item{User control}
-\item{Quality of work life}
-\end{itemize}
 \end{itemize}}
 \end{block}
 \end{frame}
@@ -257,25 +252,142 @@ The burden of maternal mortality is greatest in poor and remote areas.}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Results}
 \subsection{System Design}
-\begin{frame}{Create Phase}
-These are the results of the create phase.
+\begin{frame}[t]{Reporting Data}
+\begin{itemize}
+\item{CHVs submit reports every two weeks to the clinic}
+\item{Approximately 5-6 months to visit each household in each village}
+\item{Home visit information is hand-written, paper based}
+\item{Collecting data on number of deliveries in the community is a key component of reports}
+\item{Nurses rarely used CHV reports; presents challenges for preparing for prenatal, postnatal care at the clinic}
+\end{itemize}
 \end{frame}
 
-\subsection{Usage and Usability}
-\begin{frame}{Deliver Phase}
+\begin{frame}[t]{Reporting Data}
+\begin{block}{\textcolor{IndianRed2}{Design Principle: Reporting home visits through IVR}}
+\begin{itemize}
+\item{CHV ''flashes'' the Baby Monitor number, receives free call back}
+\item{Identify themselves as CHVs with their national ID number}
+\end{itemize}
 
+\centerline{\includegraphics<1>[scale=0.25]{reporthome1}
+\includegraphics<2>[scale=0.25]{reporthome2}}
+\end{block}
+\end{frame}
+
+\begin{frame}[t]{Reporting Data}
+\begin{block}{\textcolor{IndianRed2}{Design Principle: Reporting deliveries through IVR}}
+\begin{itemize}
+\item{CHV ''flashes'' the Baby Monitor number, receives free call back}
+\item{Identify themselves as CHVs with their national ID number}
+\end{itemize}
+
+
+\centerline{\includegraphics<1>[scale=0.25]{reportdel1}
+\includegraphics<2>[scale=0.25]{reportdel2}}
+\end{block}
+\end{frame}
+
+
+
+\begin{frame}[t]{Patient Referral}
+\begin{itemize}
+\item{CHVs carry ''referral books'' with sheets given to patients to take to clinic}
+\item{Nurses estimated that 50 patients per week referred by CHVs}
+\item{CHVs have no way of knowing whether patients followed up on their referrals}
+\item{CHVs have no way of hearing about deliveries if not contacted directly}
+
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}[t]{Patient Referral}
+%Clinic visit notification
+\begin{block}{\textcolor{IndianRed2}{Design Principle: Referral notifications through text message}}
+\uncover<2->{\begin{itemize}
+\item{Visits from enrolled pregnant women logged by clinic nurses, data entered into Baby Monitor database}
+\item{R analysis script matched each woman who visited the clinic to the CHV assigned to her village of residence}
+\item{Automated text messages sent the following morning}
+\end{itemize}}
+\uncover<2->{\textit{Hi. Betty Odong visited the clinic yesterday! This was her ANC 2 month visit. Please encourage her to continue attending appointments.}}
+\end{block}
+\end{frame}
+
+\begin{frame}[t]{Patient Referral}
+%Delivery notification
+\begin{block}{\textcolor{IndianRed2}{Design Principle: Delivery notifications through text message}}
+\uncover<2->{\begin{itemize}
+\item{Family member ''flashes'' Baby Monitor number, receives free call back}
+\item{Identical to CHV reporting call flow}
+\item{R analysis script matches the woman reported to the CHV assigned to her village}
+\item{Automated text messages sent the following morning}
+\end{itemize}}
+\uncover<2->{\textit{Hi. Betty Odong delivered her baby on 08-04-2014!}}
+\end{block}
+\end{frame}
+
+\begin{frame}[t]{Emergency Response}
+\begin{itemize}
+\item{CHVs are usually called during an emergency}
+\item{Recommend that the patient go to the clinic for immediate care}
+\item{Often, the clinic was unprepared to handle an emergency case}
+\item{Little to no direct communication between CHVs and clinic nurses about incoming emergencies}
+\end{itemize}
+\end{frame}
+
+\begin{frame}[t]{Emergency Response}
+%Emergency Reporting
+\begin{block}{\textcolor{IndianRed2}{Design Principle: Reporting emergencies through IVR}}
+\begin{itemize}
+\item{CHV, mother, or family member ''flashes'' the Baby Monitor number, receives free call back}
+\item{Indicate that they would like to report an emergency}
+\end{itemize}
+\centerline{\includegraphics<1>[scale=0.25]{reportem1}}
+\end{block}
+\end{frame}
+
+
+\subsection{Usage and Usability}
+\begin{frame}{Call Volume}
+\begin{itemize}
+\item{1,312 total calls registered from CHVs}
+\item{401 valid calls registered from CHVs}
+\item{Call volume fluctuated over the eight month period}
+\item{CHVs reported 71 of 72 births taking place in the catchment area}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Usability Results}
+\centerline{\includegraphics[scale=0.42]{usability}}
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Discussion}
-\subsection{Frame 1}
-\begin{frame}{Frame 1}
-
+\subsection{Lessons Learned}
+\begin{frame}{Lessons Learned}
+\begin{itemize}
+\item{Oral translation of messages}
+\item{Voice message quality}
+\item{Mobile network variability}
+\end{itemize}
 \end{frame}
 
+\begin{frame}{Limitations}
+\begin{itemize}
+\item{Pilot study: small convenience sample}
+\item{Time constraints: one cycle of research phases}
+\end{itemize}
+\end{frame}
 
-
+\subsection{Future Research}
+\begin{frame}{Future Research}
+\begin{itemize}
+\item{Expanding sample size}
+\item{Integration of screening service: decision-making support for CHVs}
+\item{Impact on process outcomes: home visits, clinic visits, clinic deliveries}
+\item{Additional features suggested by focus group participants}
+\end{itemize}
+\end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{document}

@@ -4,9 +4,10 @@
 \beamer@subsectionintoc {1}{2}{mHealth}{9}{0}{1}
 \beamer@sectionintoc {2}{Methods}{14}{0}{2}
 \beamer@subsectionintoc {2}{1}{Setting}{14}{0}{2}
-\beamer@subsectionintoc {2}{2}{Human-Centered Design}{24}{0}{2}
-\beamer@sectionintoc {3}{Results}{31}{0}{3}
-\beamer@subsectionintoc {3}{1}{System Design}{31}{0}{3}
-\beamer@subsectionintoc {3}{2}{Usage and Usability}{32}{0}{3}
-\beamer@sectionintoc {4}{Discussion}{33}{0}{4}
-\beamer@subsectionintoc {4}{1}{Frame 1}{33}{0}{4}
+\beamer@subsectionintoc {2}{2}{Human-Centered Design}{22}{0}{2}
+\beamer@sectionintoc {3}{Results}{29}{0}{3}
+\beamer@subsectionintoc {3}{1}{System Design}{29}{0}{3}
+\beamer@subsectionintoc {3}{2}{Usage and Usability}{41}{0}{3}
+\beamer@sectionintoc {4}{Discussion}{43}{0}{4}
+\beamer@subsectionintoc {4}{1}{Lessons Learned}{43}{0}{4}
+\beamer@subsectionintoc {4}{2}{Future Research}{45}{0}{4}
